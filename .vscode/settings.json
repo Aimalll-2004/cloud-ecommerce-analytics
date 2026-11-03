@@ -1,0 +1,12 @@
+{
+    "vscord.enable": true,
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.idle.enabled": false,
+    "vscord.status.problems.enabled": false,
+    "vscord.status.idle.timeout": 30000,
+    "vscord.status.details.enabled": false,
+    "vscord.status.details.idle.enabled": false,
+    "vscord.status.state.debugging.enabled": false,
+    "vscord.status.state.enabled": false,
+    "vscord.status.state.idle.enabled": false
+}
