@@ -24,7 +24,12 @@ select
     o.order_purchase_timestamp,
     coalesce(i.product_revenue, 0) as product_revenue,
     coalesce(i.freight_revenue, 0) as freight_revenue,
-    coalesce(i.items_sold, 0) as items_sold
+    coalesce(i.items_sold, 0) as items_sold,
+    case 
+        when o.order_status = 'delivered'
+        then coalesce(i.product_revenue, 0)
+        else 0
+    end as realized_product_revenue
 
 from orders o
 left join order_items i on o.order_id = i.order_id
