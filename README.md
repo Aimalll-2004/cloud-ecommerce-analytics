@@ -127,25 +127,25 @@ Four interactive report pages were developed using Snowflake analytics models.
 
 Tracks total delivered-order product revenue, delivered orders, average order value, items sold, monthly revenue trends, and order statuses.
 
-![Sales Overview Dashboard](screenshots/sales_overview.png)
+![Sales Overview Dashboard](screenshots/Sales_Overview.png)
 
 ### 2. Product Performance
 
 Analyzes product revenue, units sold, product categories, top-performing categories, and revenue versus sales volume.
 
-![Product Performance Dashboard](screenshots/product_performance.png)
+![Product Performance Dashboard](screenshots/Product_Performance.png)
 
 ### 3. Delivery Performance
 
 Monitors average delivery time, late-delivery rates, on-time deliveries, delivery-time distributions, and monthly delivery performance.
 
-![Delivery Performance Dashboard](screenshots/delivery_performance.png)
+![Delivery Performance Dashboard](screenshots/Delivery_Performance.png)
 
 ### 4. Customer Insights
 
 Explores customer counts, total customer spending, average customer spending, customer review scores, and state-level customer patterns.
 
-![Customer Insights Dashboard](screenshots/customer_insights.png)
+![Customer Insights Dashboard](screenshots/Customer_Insights.png)
 
 
 ## Key Findings
